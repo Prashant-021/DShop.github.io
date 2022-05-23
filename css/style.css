@@ -47,20 +47,6 @@ body {
     /* align-content: flex-start;*/
 }
 
-.textarea .heading {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 74px;
-    text-align: left;
-}
-
-.textarea .bodycontent {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 21px;
-}
-
 .textarea .btn {
     background: #FF6B00;
     color: #ffffff;
@@ -132,7 +118,27 @@ body {
     color: #ffffff;
 }
 
+.secondpage .item{
+    padding: 10px;
+}
+.secondpage .owl-nav{
+    height: 3rem;
+    z-index: 1;
+    width: 18%;
+    display: flex;
+    margin-top: 0 !important;
+    position: absolute;
+    top: -64px;
+    right: 5px;
+}
 
+.secondpage .owl-nav .owl-prev, .secondpage .owl-nav .owl-next{
+    background: #FF6B00 !important;
+    width: 40%;
+    height: 100%;
+    font-size: xx-large !important;
+    box-shadow: 0px 8px 24px rgb(0 0 0 / 15%);
+}
 
 
 /* thirdpage */
@@ -231,3 +237,5 @@ body {
     border: none;
     background: transparent;
 }
+
+
